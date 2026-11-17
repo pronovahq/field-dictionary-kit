@@ -5,10 +5,10 @@
   },
   "plugins": [
     {
-      "name": "field-dictionary",
+      "name": "crm-field-dictionary",
       "source": {
         "source": "local",
-        "path": "./plugins/field-dictionary"
+        "path": "./plugins/crm-field-dictionary"
       },
       "policy": {
         "installation": "AVAILABLE",

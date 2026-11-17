@@ -1,12 +1,12 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
-  "name": "field-dictionary",
+  "name": "crm-field-dictionary",
   "version": "1.0.0",
   "description": "Reads your team's field dictionary before any deal, forecast, pipeline, invoice or renewal task. Also drafts one and checks it against your tools. Only reads.",
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "Field dictionary",
+        "displayName": "CRM field dictionary",
         "shortDescription": "Reads your team's field dictionary before any deal task. Only reads.",
         "developerName": "ProNova",
         "category": "Productivity",

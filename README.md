@@ -54,7 +54,7 @@ Asked for the Monday forecast, the agent names the entries it used, says it only
 | AGENTS.md | Codex reads this at the start of every session. Same text as CLAUDE.md |
 | .claude/skills/field-dictionary/ | The skill, where Claude Code looks for it |
 | .agents/skills/field-dictionary/ | The same skill, where Codex looks for it |
-| plugins/field-dictionary/ | The same skill packaged as a plugin, for people who install it without copying this repository |
+| plugins/crm-field-dictionary/ | The same skill packaged as a plugin, for people who install it without copying this repository |
 | .claude-plugin/marketplace.json | The plugin listing Claude Code reads |
 | .agents/plugins/marketplace.json | The plugin listing Codex and the ChatGPT desktop app read |
 | checks/check-skill-copies.sh | A check that the three copies of the skill match |
@@ -95,14 +95,14 @@ Use this when you want the skill in your own tools without copying this reposito
 In Claude Code, run this in a session:
 
 ```
-/plugin install field-dictionary --marketplace pronovahq/field-dictionary-kit
+/plugin install crm-field-dictionary --marketplace pronovahq/field-dictionary-kit
 ```
 
 In Codex, run these two lines in your shell:
 
 ```
 codex plugin marketplace add pronovahq/field-dictionary-kit
-codex plugin add field-dictionary@pronova-field-dictionary-kit
+codex plugin add crm-field-dictionary@pronova-field-dictionary-kit
 ```
 
 In the ChatGPT desktop app, open Plugins, select Add marketplace and enter pronovahq/field-dictionary-kit as the source.
@@ -111,7 +111,7 @@ The plugin doesn't hold your field dictionary. Keep field-dictionary.md where th
 
 ## The three skill copies
 
-The folders .claude/skills/field-dictionary/, .agents/skills/field-dictionary/ and plugins/field-dictionary/skills/field-dictionary/ hold the same files. If you change one, change the other two. To check that they match, run: sh checks/check-skill-copies.sh
+The folders .claude/skills/field-dictionary/, .agents/skills/field-dictionary/ and plugins/crm-field-dictionary/skills/field-dictionary/ hold the same files. If you change one, change the other two. To check that they match, run: sh checks/check-skill-copies.sh
 
 ## License
 

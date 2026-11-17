@@ -1,6 +1,6 @@
 {
-  "name": "field-dictionary",
-  "displayName": "Field dictionary",
+  "name": "crm-field-dictionary",
+  "displayName": "CRM field dictionary",
   "version": "1.0.0",
   "description": "Reads your team's field dictionary before any deal, forecast, pipeline, invoice or renewal task. Also drafts one and checks it against your tools. Only reads.",
   "author": {

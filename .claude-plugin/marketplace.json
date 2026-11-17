@@ -6,8 +6,8 @@
   },
   "plugins": [
     {
-      "name": "field-dictionary",
-      "source": "./plugins/field-dictionary",
+      "name": "crm-field-dictionary",
+      "source": "./plugins/crm-field-dictionary",
       "description": "Reads your team's field dictionary before any deal, forecast, pipeline, invoice or renewal task. Only reads."
     }
   ]
