@@ -1,0 +1,20 @@
+{
+  "name": "pronova-field-dictionary-kit",
+  "interface": {
+    "displayName": "ProNova field dictionary kit"
+  },
+  "plugins": [
+    {
+      "name": "field-dictionary",
+      "source": {
+        "source": "local",
+        "path": "./plugins/field-dictionary"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

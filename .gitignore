@@ -1,0 +1,18 @@
+# Credentials never belong in this repository
+.env
+.env.*
+*.pem
+*.key
+*.p12
+credentials.json
+secrets.*
+.mcp.json
+.codex/
+.claude/settings.local.json
+
+# Record exports can hold client data
+*.csv
+*.xlsx
+
+# System files
+.DS_Store

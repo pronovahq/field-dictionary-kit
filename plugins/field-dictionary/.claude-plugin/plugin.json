@@ -1,0 +1,19 @@
+{
+  "name": "field-dictionary",
+  "displayName": "Field dictionary",
+  "version": "1.0.0",
+  "description": "Reads your team's field dictionary before any deal, forecast, pipeline, invoice or renewal task. Also drafts one and checks it against your tools. Only reads.",
+  "author": {
+    "name": "ProNova"
+  },
+  "license": "MIT",
+  "keywords": [
+    "crm",
+    "revops",
+    "forecast",
+    "field-dictionary"
+  ],
+  "icon": "./assets/icon.png",
+  "homepage": "https://github.com/pronovahq/field-dictionary-kit",
+  "repository": "https://github.com/pronovahq/field-dictionary-kit"
+}
