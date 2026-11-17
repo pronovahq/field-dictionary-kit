@@ -6,6 +6,30 @@ A field dictionary is one shared document that says what each field means in you
 
 The sample rows describe Acme Corp, a made-up services firm. Acme Corp, Testco and every value in this repository are illustrative. Replace them with your own.
 
+## How it works with your CRM connector
+
+The field dictionary and the connector are two separate things. The connector, for example the HubSpot connector in Claude, gives the agent your records. The field dictionary tells the agent what those records mean. You don't wire them together. You make sure both are in reach when you ask a question.
+
+Set it up once:
+
+1. Switch on your CRM connector and set its write tools to Needs approval.
+2. Put field-dictionary.md where the agent reads it: a Claude Project's files, the root of this repository, or the chat.
+3. Install the skill if you want the stricter rules: only read, name the entries used and flag unknown values.
+
+Then, on every question about deals:
+
+1. The agent reads field-dictionary.md.
+2. It pulls the records through the connector.
+3. It reads each field the way your field dictionary defines it, not the way the tool labels it.
+4. It answers, names the entries it used and lists the records it flagged.
+
+Here is an example from our test with the Acme Corp sample, which is illustrative. The CRM's own weighted forecast for the month added up to 113,100. With the field dictionary, the agent read the same records and reported 24,000 as Commit, because only one buyer had named a signing date in writing. It reported 81,000 as Best case and left one deal out, because nothing on the record backed its stage.
+
+Two limits:
+
+- The connector doesn't store or load the field dictionary. The file has to sit in every place an agent runs.
+- In a chat that has the connector but no field dictionary in reach, the agent answers from the tool's defaults.
+
 ## What it looks like
 
 Both screenshots show the Acme Corp sample with made-up Testco deals. They are illustrative.
