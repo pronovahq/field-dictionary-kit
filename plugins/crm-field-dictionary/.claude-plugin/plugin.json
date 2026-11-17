@@ -15,5 +15,6 @@
   ],
   "icon": "./assets/icon.png",
   "homepage": "https://github.com/pronovahq/field-dictionary-kit",
-  "repository": "https://github.com/pronovahq/field-dictionary-kit"
+  "repository": "https://github.com/pronovahq/field-dictionary-kit",
+  "privacyPolicyUrl": "https://pronovahq.com/privacy"
 }

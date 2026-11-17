@@ -38,6 +38,12 @@ Nothing. The plugin holds instructions only: four Markdown files and an icon. It
 
 The agent reads your records through the connector you already use. The skill tells it to only read: never create, update or delete a record, and never call a tool that writes. It also tells the agent never to show the names of people or companies, email addresses or phone numbers. When you ask about your own deals, it may show a deal's name next to its record ID.
 
+## Privacy
+
+The plugin collects no data, stores no data and sends no data. It gives your agent instructions and nothing else. Your agent reads records through the connector you already use, and that connector's own terms apply to what it reads.
+
+ProNova's privacy policy: https://pronovahq.com/privacy
+
 ## Where to get the rest of the kit
 
 The template, the test questions and a repository layout for teams that review every change are at https://github.com/pronovahq/field-dictionary-kit.
